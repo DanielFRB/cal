@@ -8,6 +8,10 @@
       var num = document.getElementById("n1");
       num.value = 1/num.value;
     }
+    function cuad() {
+        var num = document.getElementById("n1");
+        num.value = num.value * num.value;
+    }
   </script>
 </head>
 <body>
@@ -15,6 +19,9 @@
   <input type="text" id="n1"><p></p>
   <button onclick="inverso()">
     1/X
+  </button>
+  <button onclick="cuad()">
+      x<sup>2</sup>
   </button>
 </body>
 </html>
